@@ -317,8 +317,6 @@ Document the project's specific folder structure, for example:
 
 ### Project Documentation Index [TO BE FILLED]
 
-**[PLACEHOLDER - UPDATE AS DOCS ARE CREATED]**
-
 #### Required documents (AI should create these proactively):
 - `docs/TODO.md` - Development log and task tracker **[REQUIRED]**
 - `docs/20YYMMDD_product_requirements.md` - Product requirements and specifications **[REQUIRED]**
@@ -335,8 +333,6 @@ Document the project's specific folder structure, for example:
 
 ### Code Organization Patterns [TO BE FILLED]
 
-**[PLACEHOLDER - DEFINE PROJECT PATTERNS]**
-
 1. Naming conventions
 2. File organization rules
 3. Import/export patterns
@@ -344,17 +340,15 @@ Document the project's specific folder structure, for example:
 
 ### Domain-Specific Guidelines [TO BE FILLED]
 
-**[PLACEHOLDER - ADD DOMAIN-SPECIFIC RULES]**
-
 1. Business logic rules
 2. Data models and schemas
 3. API patterns
+    1. Use OpenAPI/Swagger specs that AI tools can understand
+    2. Design RESTful endpoints with clear naming conventions
 4. Integration requirements
 5. Special considerations
 
 ### UI/UX Standards [TO BE FILLED]
-
-**[PLACEHOLDER - SPECIFY DESIGN STANDARDS]**
 
 1. Design system guidelines
 2. Accessibility requirements
@@ -362,18 +356,14 @@ Document the project's specific folder structure, for example:
 4. Animation/transition standards
 5. Brand guidelines
 
-### Testing Strategy [TO BE FILLED]
+### Testing Strategy
 
-**[PLACEHOLDER - DEFINE TESTING APPROACH]**
-
-1. Testing framework and tools
-2. Test file locations
-3. Coverage requirements
-4. E2E testing approach
+1. Set up testing frameworks Jest for unit tests and Cypress for end to end testing 
+2. Ensure following testing best practices under test_best_practices_guide.md 
+3. Jest Unit tests should have 80% coverage requirements
+4. E2E test plans and tests should be created based on product_requirements.md file(s) in tje project
 
 ### Deployment and Environment [TO BE FILLED]
-
-**[PLACEHOLDER - DOCUMENT DEPLOYMENT PROCESS]**
 
 1. Environment variables
 2. Build process
@@ -384,8 +374,6 @@ Document the project's specific folder structure, for example:
 
 ### First Time Setup [TO BE FILLED]
 
-**[PLACEHOLDER - LIST SETUP STEPS]**
-
 1. Clone repository
 2. Install dependencies
 3. Environment configuration
@@ -393,8 +381,6 @@ Document the project's specific folder structure, for example:
 5. Initial data/seed
 
 ### Common Commands [TO BE FILLED]
-
-**[PLACEHOLDER - LIST COMMON COMMANDS]**
 
 1. Development server
 2. Testing
